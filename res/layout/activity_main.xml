@@ -1,0 +1,58 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    
+        >
+
+        <ImageView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hiyo"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        />
+    
+    
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hiyo" 
+        android:layout_gravity="left"
+        android:adjustViewBounds="true"
+        />
+    	
+        
+        <ImageView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hiyo"
+        android:layout_gravity="right"
+        android:adjustViewBounds="true"
+        />
+    
+        <ImageView
+        	android:layout_width="220dp"
+        	android:layout_height="wrap_content"
+        	android:src="@drawable/hiyo" 
+        	android:layout_gravity="left"
+        	android:adjustViewBounds="true"
+        />
+    	
+        
+        <ImageView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hiyo"
+        android:layout_gravity="right"
+        android:adjustViewBounds="true"
+        />
+        
+</LinearLayout>
+
+</ScrollView>
